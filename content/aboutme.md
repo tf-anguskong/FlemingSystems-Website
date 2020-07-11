@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Fleming Systems"
 date: 2020-07-11T11:25:24-07:00
-draft: true
+draft: false
 featured_image: "images/welcome.jpg"
 ---
 
