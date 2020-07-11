@@ -1,8 +1,7 @@
 ---
 title: "Contact Me"
 date: 2020-07-10T23:06:18-07:00
-draft: true
-tags: ["contact"]
+draft: false
 featured_image: "images/seattle.jpg"
 ---
 

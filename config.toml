@@ -1,5 +1,5 @@
 title = "Fleming Systems LLC"
-baseURL = "https://fleming.systems/"
+baseURL = "https://fleming.systems"
 languageCode = "en-us"
 theme = "ananke"
 
@@ -19,7 +19,7 @@ enableRobotsTXT = true
 [menu]
     [[menu.main]]
     name = "Contact Me"
-    url = "contactme/"
+    url = "/contactme/"
 
 [params]
   favicon = "/images/MediumFSIcon.png"
