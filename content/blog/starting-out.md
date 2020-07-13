@@ -23,6 +23,7 @@ I had never really considered starting a business of my own... granted this is a
     * Utilizing third party solutions for booking appointments and contact form on the website.
         * [Formspree](https://formspree.io/) -- Contact Form
         * [Picktime](https://www.picktime.com/) -- Appointment Booking
+    * Free stock photos for various pictures through the site from [Pexel](https://www.pexels.com/)
     * Creating my company logo with [Inkscape](https://inkscape.org/release/inkscape-1.0/)
     * I'm not much of an accountant... but I am trying to track all my expenses and what not in [Gnu Cash](https://gnucash.org/), a free accounting software. 
 
