@@ -3,10 +3,10 @@ title: "Starting Out"
 date: 2020-07-13T13:26:53-07:00
 draft: false
 featured_image: "images/codebg.jpg"
-tags: ["business"]
+tags: ["business","walkthrough"]
 ---
 
-# Starting out Fleming Systems
+# Starting out with Fleming Systems
 
 I had never really considered starting a business of my own... granted this is a company of me, myself, and I. But I have learned quite a bit since I first started two weeks ago, to include legally and technically.
 
