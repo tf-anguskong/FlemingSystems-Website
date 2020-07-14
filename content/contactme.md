@@ -4,6 +4,11 @@ date: 2020-07-10T23:06:18-07:00
 draft: false
 featured_image: "images/seattle.jpg"
 ---
+
+{{<rawhtml>}}
+<body style="background-color: darkgray; color: white;"></body>
+{{</rawhtml>}}
+
 You can reach me via any method below.
 
 * Schedule a meeting
