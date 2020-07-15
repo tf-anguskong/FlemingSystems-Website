@@ -12,9 +12,7 @@ featured_image: "images/seattle.jpg"
 You can reach me via any method below.
 
 * Schedule a meeting
-    * {{<rawhtml>}}
-<a href="https://www.picktime.com/2c04c240-3b13-4725-bd4c-5206a91d2e5a" class="ptbkbtn" target="" style="float:none;">Book an Appointment</a>
-{{</rawhtml>}}
+    * ### [Schedule a meet and greet](https://flemingsystems.agilecrm.com/calendar/tyler_fleming )
 
 * Phone:
     * You can call me at (425) 395-8553, office hours are 9am to 4pm PST. 
