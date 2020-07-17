@@ -12,7 +12,7 @@ featured_image: "images/seattle.jpg"
 You can reach me via any method below.
 
 * Schedule a meeting
-    * ### [Schedule a meet and greet](http://schedule.fleming.systems/tyler_fleming)
+    * ### [Schedule a meet and greet](https://outlook.office365.com/owa/calendar/FlemingSystemsLLC@fleming.systems/bookings/)
 
 * Phone:
     * You can call me at (425) 395-8553, office hours are 9am to 4pm PST. 
