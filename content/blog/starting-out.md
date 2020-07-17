@@ -3,7 +3,7 @@ title: "Starting Out"
 date: 2020-07-13T13:26:53-07:00
 draft: false
 featured_image: "images/codebg.jpg"
-tags: ["business","walkthrough"]
+tags: ["Business","Walkthrough"]
 ---
 
 # Starting out with Fleming Systems
