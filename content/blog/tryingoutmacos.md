@@ -1,5 +1,5 @@
 ---
-title: "Tryingoutmacos"
+title: "Trying out MacOS"
 date: 2020-07-16T21:23:20-07:00
 draft: false
 tags: ["Fun"]
