@@ -17,13 +17,15 @@ Here are a few subjects I am proficient in:
 
 ---
 
+* DevOps with tools like Ansible
 * Windows Services, to include back to Windows Server 2008 R2
-* Virtualization with Microsoft Hyper-V
+* Virtualization with Microsoft Hyper-V + Containerization via Docker
 * Microsoft SCCM, now known as Endpoint Manager. To include integration with Microsoft Intune. 
 * Windows Automation with Powershell
 * Microsoft Office 365
     * Exchange Online
 * Microsoft Azure Infrastrucure Services
+    * to include Azure App Services and Web Applications
 * Microsoft Azure Active Directory
 * Datacenter Networking Operations
 
