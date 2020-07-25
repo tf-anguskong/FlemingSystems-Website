@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Walkthrough on Fleming Systems LLC</title>
+    <link>https://fleming.systems/tags/walkthrough/</link>
+    <description>Recent content in Walkthrough on Fleming Systems LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jul 2020 13:26:53 -0700</lastBuildDate>
+    
+	<atom:link href="https://fleming.systems/tags/walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Starting Out</title>
+      <link>https://fleming.systems/blog/starting-out/</link>
+      <pubDate>Mon, 13 Jul 2020 13:26:53 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/starting-out/</guid>
+      <description>Starting out with Fleming Systems I had never really considered starting a business of my own&amp;hellip; granted this is a company of me, myself, and I. But I have learned quite a bit since I first started two weeks ago, to include legally and technically.
+  Legally, there are a few things I had to do.
+ I learned how to form my own LLC and register it with the state of Washington.</description>
+    </item>
+    
+  </channel>
+</rss>

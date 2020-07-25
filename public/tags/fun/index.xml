@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fun on Fleming Systems LLC</title>
+    <link>https://fleming.systems/tags/fun/</link>
+    <description>Recent content in Fun on Fleming Systems LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jul 2020 17:33:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://fleming.systems/tags/fun/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ansible First Steps</title>
+      <link>https://fleming.systems/blog/ansible-firststeps/</link>
+      <pubDate>Fri, 17 Jul 2020 17:33:00 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/ansible-firststeps/</guid>
+      <description>Quick little blurb for today, but I was able to create my first ansible playbook and in scale (my small environment of 4 linux VMs) update all my servers via apt! I have ansible running on MacOS which made the various guide online of how to get it up and running a little off, but I was able to figure it out!
+Biggest ah ha moment for me was that on MacOS the ansible directory (installed via brew) was in my home directory &amp;ldquo;/home/tyler/.</description>
+    </item>
+    
+    <item>
+      <title>Trying out MacOS</title>
+      <link>https://fleming.systems/blog/tryingoutmacos/</link>
+      <pubDate>Thu, 16 Jul 2020 21:23:20 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/tryingoutmacos/</guid>
+      <description>What&amp;rsquo;s wrong with me! I finally caved and bought a macbook pro 13&amp;rdquo;. I&amp;rsquo;ve been wanting to try out Mac OS for the longest time and I figured the responsible thing to do with starting the company was to keep everything related to Fleming Systems physically separated from everything else. It&amp;rsquo;s on it&amp;rsquo;s trial run, you get 14 days to return Apple products so I got some time to learn it.</description>
+    </item>
+    
+    <item>
+      <title>Keeping Myself Relevant</title>
+      <link>https://fleming.systems/blog/keeping-myself-relevant/</link>
+      <pubDate>Sat, 11 Jul 2020 12:44:56 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/keeping-myself-relevant/</guid>
+      <description>How does one do it? With everything technology today, how does one keep themselves relevant with all the information out there! How do you know what you want to spend time reading on, where do you find this information? My answer? I don&amp;rsquo;t! I like to read up on anything related to technology, but I am constantly finding myself having to google information whenever I work on something, be it the first time I&amp;rsquo;ve done it or the 100th!</description>
+    </item>
+    
+  </channel>
+</rss>

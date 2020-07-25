@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on Fleming Systems LLC</title>
+    <link>https://fleming.systems/tags/learning/</link>
+    <description>Recent content in Learning on Fleming Systems LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jul 2020 17:33:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://fleming.systems/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ansible First Steps</title>
+      <link>https://fleming.systems/blog/ansible-firststeps/</link>
+      <pubDate>Fri, 17 Jul 2020 17:33:00 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/ansible-firststeps/</guid>
+      <description>Quick little blurb for today, but I was able to create my first ansible playbook and in scale (my small environment of 4 linux VMs) update all my servers via apt! I have ansible running on MacOS which made the various guide online of how to get it up and running a little off, but I was able to figure it out!
+Biggest ah ha moment for me was that on MacOS the ansible directory (installed via brew) was in my home directory &amp;ldquo;/home/tyler/.</description>
+    </item>
+    
+    <item>
+      <title>Azure App Service, Web Apps, and Containers</title>
+      <link>https://fleming.systems/blog/azureappsvc-webapp-containers/</link>
+      <pubDate>Thu, 16 Jul 2020 21:17:06 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/azureappsvc-webapp-containers/</guid>
+      <description>Today my goal was to use docker + Azure to get a web app deployed to Microsoft Azure&amp;rsquo;s web apps. After about 2 hours and some reading I was able to get through it!
+It should also be noted that before today I have briefly messed with Docker containers in the past but hadn&amp;rsquo;t quite understood the power of containers. I&amp;rsquo;m happy to report that I have become a fan!</description>
+    </item>
+    
+  </channel>
+</rss>

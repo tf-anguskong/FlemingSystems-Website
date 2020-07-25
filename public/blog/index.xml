@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fleming Systems LLC</title>
-    <link>https://fleming.systems/</link>
-    <description>Recent content on Fleming Systems LLC</description>
+    <title>Blogs on Fleming Systems LLC</title>
+    <link>https://fleming.systems/blog/</link>
+    <description>Recent content in Blogs on Fleming Systems LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Jul 2020 17:33:00 -0700</lastBuildDate>
     
-	<atom:link href="https://fleming.systems/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fleming.systems/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -58,28 +58,6 @@ It should also be noted that before today I have briefly messed with Docker cont
       
       <guid>https://fleming.systems/blog/keeping-myself-relevant/</guid>
       <description>How does one do it? With everything technology today, how does one keep themselves relevant with all the information out there! How do you know what you want to spend time reading on, where do you find this information? My answer? I don&amp;rsquo;t! I like to read up on anything related to technology, but I am constantly finding myself having to google information whenever I work on something, be it the first time I&amp;rsquo;ve done it or the 100th!</description>
-    </item>
-    
-    <item>
-      <title>Welcome to Fleming Systems</title>
-      <link>https://fleming.systems/aboutme/</link>
-      <pubDate>Sat, 11 Jul 2020 11:25:24 -0700</pubDate>
-      
-      <guid>https://fleming.systems/aboutme/</guid>
-      <description>My name is Tyler Fleming and I have been working in the IT field since 2011. It started with my time in the Army as a 25N (Joint Nodal Network Operator; really it was networking and phone systems). It was there that I realized my passion for all things technology. Since then I have really moved towards Cloud Services and Server Infrastructure, to include physically and cloud platforms like Microsoft Azure.</description>
-    </item>
-    
-    <item>
-      <title>Contact Me</title>
-      <link>https://fleming.systems/contactme/</link>
-      <pubDate>Fri, 10 Jul 2020 23:06:18 -0700</pubDate>
-      
-      <guid>https://fleming.systems/contactme/</guid>
-      <description>You can reach me via any method below.
-  Schedule a meeting
-  Schedule a meet and greet     Phone:
- You can call me at (425) 395-8553, office hours are 9am to 4pm PST.    Email:
- Please leave a brief description of what you need assistance with, and I will get back to you within two business days. Your NameEmail AddressAn email address is required.</description>
     </item>
     
   </channel>

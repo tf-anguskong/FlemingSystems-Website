@@ -3,19 +3,105 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://fleming.systems/blog/ansible-firststeps/</loc>
+    <lastmod>2020-07-17T17:33:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://fleming.systems/blog/</loc>
+    <lastmod>2020-07-17T17:33:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://fleming.systems/tags/business/</loc>
+    <lastmod>2020-07-17T17:33:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/</loc>
+    <lastmod>2020-07-17T17:33:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/tags/fun/</loc>
+    <lastmod>2020-07-17T17:33:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/tags/learning/</loc>
+    <lastmod>2020-07-17T17:33:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/tags/</loc>
+    <lastmod>2020-07-17T17:33:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/blog/tryingoutmacos/</loc>
+    <lastmod>2020-07-16T21:23:20-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/blog/azureappsvc-webapp-containers/</loc>
+    <lastmod>2020-07-16T21:17:06-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/blog/starting-out/</loc>
+    <lastmod>2020-07-13T13:26:53-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/tags/walkthrough/</loc>
+    <lastmod>2020-07-13T13:26:53-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/blog/keeping-myself-relevant/</loc>
+    <lastmod>2020-07-11T12:44:56-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/aboutme/</loc>
+    <lastmod>2020-07-11T11:25:24-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/contactme/</loc>
+    <lastmod>2020-07-10T23:06:18-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Ansible First Steps | Fleming Systems LLC</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.74.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+<link rel="shortcut icon" href="/images/MediumFSIcon.png" type="image/x-icon" />
+
+
+    
+
+    
+    
+    <meta property="og:title" content="Ansible First Steps" />
+<meta property="og:description" content="Quick little blurb for today, but I was able to create my first ansible playbook and in scale (my small environment of 4 linux VMs) update all my servers via apt! I have ansible running on MacOS which made the various guide online of how to get it up and running a little off, but I was able to figure it out!
+Biggest ah ha moment for me was that on MacOS the ansible directory (installed via brew) was in my home directory &ldquo;/home/tyler/." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fleming.systems/blog/ansible-firststeps/" />
+<meta property="article:published_time" content="2020-07-17T17:33:00-07:00" />
+<meta property="article:modified_time" content="2020-07-17T17:33:00-07:00" />
+<meta itemprop="name" content="Ansible First Steps">
+<meta itemprop="description" content="Quick little blurb for today, but I was able to create my first ansible playbook and in scale (my small environment of 4 linux VMs) update all my servers via apt! I have ansible running on MacOS which made the various guide online of how to get it up and running a little off, but I was able to figure it out!
+Biggest ah ha moment for me was that on MacOS the ansible directory (installed via brew) was in my home directory &ldquo;/home/tyler/.">
+<meta itemprop="datePublished" content="2020-07-17T17:33:00-07:00" />
+<meta itemprop="dateModified" content="2020-07-17T17:33:00-07:00" />
+<meta itemprop="wordCount" content="187">
+
+
+
+<meta itemprop="keywords" content="Fun,Learning,Business," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Ansible First Steps"/>
+<meta name="twitter:description" content="Quick little blurb for today, but I was able to create my first ansible playbook and in scale (my small environment of 4 linux VMs) update all my servers via apt! I have ansible running on MacOS which made the various guide online of how to get it up and running a little off, but I was able to figure it out!
+Biggest ah ha moment for me was that on MacOS the ansible directory (installed via brew) was in my home directory &ldquo;/home/tyler/."/>
+
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-173522822-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-dark-gray">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        <img src="/images/MediumBanner.png" class="w100 mw5-ns" alt="Fleming Systems LLC" />
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/aboutme/" title="About Me page">
+              About Me
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/blog/" title="Blogs page">
+              Blogs
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contactme/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+<a href="https://linkedin.com/in/trfleming3745" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        BLOGS
+      </aside>
+      
+      <h1 class="f1 athelas mt3 mb1">Ansible First Steps</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-07-17T17:33:00-07:00">July 17, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Quick little blurb for today, but I was able to create my first ansible playbook and in scale (my small environment of 4 linux VMs) update all my servers via apt! I have ansible running on MacOS which made the various guide online of how to get it up and running a little off, but I was able to figure it out!</p>
+<p>Biggest ah ha moment for me was that on MacOS the ansible directory (installed via brew) was in my home directory &ldquo;/home/tyler/.ansible&rdquo;. I then just made a very basic ansible.cfg file.</p>
+<h5 id="ansiblecfg">ansible.cfg</h5>
+<pre><code>[defaults]
+inventory       = &lt;path to inven file&gt;/inven
+</code></pre><h5 id="inventory-file">inventory file</h5>
+<pre><code>[debianvms]
+192.168.1.11
+192.168.1.12
+192.168.1.13
+192.168.1.14
+</code></pre><h5 id="playbook">playbook</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#66d9ef">hosts</span>: debianvms
+  <span style="color:#66d9ef">become</span>: <span style="color:#66d9ef">true</span>
+  <span style="color:#66d9ef">tasks</span>:
+    - <span style="color:#66d9ef">name</span>: Run apt-get update
+      <span style="color:#66d9ef">apt</span>: update_cache=yes force_apt_get=yes
+
+    - <span style="color:#66d9ef">name</span>: Upgrade all packages on servers
+      <span style="color:#66d9ef">apt</span>: upgrade=dist force_apt_get=yes
+
+    - <span style="color:#66d9ef">name</span>: Check if a reboot is required
+      <span style="color:#66d9ef">register</span>: reboot_required_file
+      <span style="color:#66d9ef">stat</span>: path=/var/run/reboot-required get_md5=no
+</code></pre></div><p><a href="/files/aptupdate.yml">Ansible Playbook (Download)</a></p>
+<p>Then to run the playbook you just run the command, the &ndash;ask-become-pass is so it prompts me to enter the SUDO password as it&rsquo;s needed to run the apt update and upgrade.</p>
+<h5 id="running-the-playbook">Running the playbook</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ansible-playbook playbook.yml --ask-become-pass
+</code></pre></div><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/fun" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Fun</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/learning" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Learning</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/business" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Business</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/blog/azureappsvc-webapp-containers/">Azure App Service, Web Apps, and Containers</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/blog/tryingoutmacos/">Trying out MacOS</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/blog/starting-out/">Starting Out</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/blog/keeping-myself-relevant/">Keeping Myself Relevant</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-dark-gray bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+    <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://fleming.systems">
+      &copy;  Fleming Systems LLC 2020 
+    </a>
+    <div>
+
+
+
+
+
+
+
+<a href="https://linkedin.com/in/trfleming3745" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
