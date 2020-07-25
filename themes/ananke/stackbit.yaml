@@ -17,6 +17,10 @@ models:
         label: Title
         required: true
       - type: string
+        name: slogan
+        label: slogan
+        required: false
+      - type: string
         name: baseURL
         label: Base URL
         description: Hostname (and path) to the root
@@ -138,6 +142,10 @@ models:
         label: Title
         description: The title of the page.
         required: true
+      - type: string
+        name: slogan
+        label: slogan
+        required: false
       - type: image
         name: featured_image
         label: Featured Image
@@ -159,6 +167,10 @@ models:
         name: title
         label: Title
         description: The title of the page.
+      - type: string
+        name: slogan
+        label: slogan
+        required: false
       - type: string
         name: type
         label: type
@@ -191,6 +203,10 @@ models:
         name: title
         label: Title
         description: The title of the page.
+      - type: string
+        name: slogan
+        label: slogan
+        required: false
       - type: image
         name: featured_image
         label: Featured Image
@@ -218,6 +234,9 @@ models:
       - type: string
         name: title
         label: Title
+      - type: string
+        name: slogan
+        label: slogan
       - type: date
         name: date
         label: Date
