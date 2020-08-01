@@ -15,10 +15,9 @@ featured_image: "images/welcome.jpg"
 {{</rawhtml>}}
 
 
-My name is Tyler Fleming and I have been working in the IT field since 2011. It started with my time in the Army as a 25N (Joint Nodal Network Operator; really it was networking and phone systems). Since then I have moved towards Cloud Services and Server Infrastructure, to include physical servers and cloud platforms like Microsoft Azure.
+My name is Tyler Fleming and I am the founder of Fleming Systems and (currently) the only employee. I have been working in the IT field since 2011. It started with my time in the Army as a 25N and got out in 2016. Since then I have moved towards Cloud Services and Server Infrastructure, to include physical servers and cloud platforms like Microsoft Azure. I hope that you and I can work together to improve your current IT processes or implement new ones to expand your own business. 
 
-I am currently attending College to obtain my BAS in Systems Administration and Cybersecurity, to be completed in Winter 2021. I am continuuosly learning new technology, my most recent endeavor was setting up this website using Hugo and Netlify!
-
+--- 
 Areas of Proficiency:
 
 ---
