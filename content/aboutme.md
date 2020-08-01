@@ -7,7 +7,13 @@ featured_image: "images/welcome.jpg"
 
 {{<rawhtml>}}
 <body style="background-color: darkgray; color: white;"></body>
+
+<img src="/images/profile.jpeg"
+     alt="Tyler Fleming"
+     style="max-width: 300px"
+     class="center">
 {{</rawhtml>}}
+
 
 My name is Tyler Fleming and I have been working in the IT field since 2011. It started with my time in the Army as a 25N (Joint Nodal Network Operator; really it was networking and phone systems). Since then I have moved towards Cloud Services and Server Infrastructure, to include physical servers and cloud platforms like Microsoft Azure.
 
