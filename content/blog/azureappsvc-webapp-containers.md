@@ -3,6 +3,7 @@ title: "Azure App Service, Web Apps, and Containers"
 date: 2020-07-16T21:17:06-07:00
 draft: false
 tags: ["Business","Learning"]
+description: "How to use Azure App Services and deploy to them"
 ---
 
 Today my goal was to use docker + Azure to get a web app deployed to Microsoft Azure's web apps. After about 2 hours and some reading I was able to get through it!

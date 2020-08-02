@@ -1,8 +1,10 @@
 ---
-title: "Contact Me"
+title: "Contact"
 date: 2020-07-10T23:06:18-07:00
-draft: false
-featured_image: "images/seattle.jpg"
+omit_header_text: true
+description: We'd love to hear from you
+type: page
+menu: main
 ---
 
 {{<rawhtml>}}

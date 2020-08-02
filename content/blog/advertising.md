@@ -3,6 +3,7 @@ title: "Advertising Myself"
 date: 2020-07-28T20:43:23-07:00
 draft: false
 tags: ["Business","Life"]
+description: ""
 ---
 
 # Hello there! What brought you here?

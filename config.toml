@@ -18,12 +18,7 @@ enableRobotsTXT = true
 
 [menu]
     [[menu.main]]
-    name = "Contact"
-    url = "/contactme/"
 
-    [[menu.main]]
-    name = "About Me"
-    url = "/aboutme/"
 
 [params]
   favicon = "/images/MediumFSIcon.png"

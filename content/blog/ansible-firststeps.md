@@ -3,6 +3,7 @@ title: "Ansible First Steps"
 date: 2020-07-17T17:33:00-07:00
 draft: false
 tags: ["Fun","Learning","Business"]
+description: "Ansible Walkthrough"
 ---
 
 Quick little blurb for today, but I was able to create my first ansible playbook and in scale (my small environment of 4 linux VMs) update all my servers via apt! I have ansible running on MacOS which made the various guide online of how to get it up and running a little off, but I was able to figure it out!

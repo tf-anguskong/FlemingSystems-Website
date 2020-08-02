@@ -1,8 +1,10 @@
 ---
-title: "Welcome to Fleming Systems"
+title: "Meet the Owner"
 date: 2020-07-11T11:25:24-07:00
-draft: false
+omit_header_text: true
 featured_image: "images/welcome.jpg"
+type: page
+menu: main
 ---
 
 {{<rawhtml>}}
