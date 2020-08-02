@@ -1,7 +1,7 @@
 ---
 title: "Microsoft 365 Overview"
 date: 2020-08-02T10:04:34-07:00
-draft: true
+draft: false
 tags: ["Intro","Services"]
 ---
 
