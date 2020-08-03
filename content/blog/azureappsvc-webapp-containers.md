@@ -2,7 +2,7 @@
 title: "Azure App Service, Web Apps, and Containers"
 date: 2020-07-16T21:17:06-07:00
 draft: false
-tags: ["Business","Learning"]
+tags: ["Business","Learning","Azure"]
 description: "How to use Azure App Services and deploy to them"
 ---
 

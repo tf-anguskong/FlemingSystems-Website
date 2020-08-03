@@ -2,7 +2,7 @@
 title: "Microsoft 365 Overview"
 date: 2020-08-02T10:04:34-07:00
 draft: false
-tags: ["Intro","Services"]
+tags: ["Intro","Services","Microsoft 365"]
 description: "High level overview of Microsoft 365 Services"
 ---
 
