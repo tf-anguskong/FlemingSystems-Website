@@ -1,7 +1,7 @@
 ---
 title: "3cx"
 date: 2020-08-03T14:10:51-07:00
-draft: true
+draft: false
 tags: ["Phone System","Business"]
 description: "A blog post about 3cx's SIP based phone system"
 ---
