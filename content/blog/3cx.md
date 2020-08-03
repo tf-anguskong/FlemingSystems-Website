@@ -1,5 +1,5 @@
 ---
-title: "3cx"
+title: "3cx - My new favorite Phone System"
 date: 2020-08-03T14:10:51-07:00
 draft: false
 tags: ["Phone System","Business"]
