@@ -12,7 +12,7 @@ I work with a Mitel phone system day in and day out, and if it were up to me we 
 
 With the need for a replacement looming, I have been looking into replacement phone systems for a year or so now. Being me, I of course want to move to a fully cloud solution but they are **extremely** expensive. We are talking anywhere from $8/u/m to $30/u/m depending on what you need. 
 
-This is when I discovered [3cx](3cx.com), it is actually what I am using for Fleming Systems and I love it! The way they price their licensing is fantastic, especially for the small/medium business use case. If you don't expect more than 8 calls at once it's free. They are also offering free licenses due to COVID. 
+This is when I discovered [3cx](https://www.3cx.com), it is actually what I am using for Fleming Systems and I love it! The way they price their licensing is fantastic, especially for the small/medium business use case. If you don't expect more than 8 calls at once it's free. They are also offering free licenses due to COVID. 
 
 3cx is a SIP based phone system, so you will need to bring your own trunk into their system in order to make and recieve calls. There are many different providers for this, SIP.US, Twilio, FlowRoute, etc. You can choose to host 3cx on-premise or within a cloud provider like Microsoft Azure. 
 
