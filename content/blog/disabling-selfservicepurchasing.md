@@ -1,5 +1,5 @@
 ---
-title: "Disabling Selfservicepurchasing"
+title: "Disabling Self-Service Purchasing"
 date: 2020-08-14T13:29:44-07:00
 draft: false
 tags: ["Microsoft 365","Best Practice"]
