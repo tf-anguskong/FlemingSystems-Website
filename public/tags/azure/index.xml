@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure on Fleming Systems LLC</title>
+    <link>https://fleming.systems/tags/azure/</link>
+    <description>Recent content in Azure on Fleming Systems LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jul 2020 21:17:06 -0700</lastBuildDate>
+    
+	<atom:link href="https://fleming.systems/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Azure App Service, Web Apps, and Containers</title>
+      <link>https://fleming.systems/blog/azureappsvc-webapp-containers/</link>
+      <pubDate>Thu, 16 Jul 2020 21:17:06 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/azureappsvc-webapp-containers/</guid>
+      <description>Today my goal was to use docker + Azure to get a web app deployed to Microsoft Azure&amp;rsquo;s web apps. After about 2 hours and some reading I was able to get through it!
+It should also be noted that before today I have briefly messed with Docker containers in the past but hadn&amp;rsquo;t quite understood the power of containers. I&amp;rsquo;m happy to report that I have become a fan!</description>
+    </item>
+    
+  </channel>
+</rss>

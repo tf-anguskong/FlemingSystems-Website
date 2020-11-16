@@ -6,17 +6,71 @@
     <description>Recent content in Tags on Fleming Systems LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2020 17:33:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2020 13:29:44 -0700</lastBuildDate>
     
 	<atom:link href="https://fleming.systems/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Best Practice</title>
+      <link>https://fleming.systems/tags/best-practice/</link>
+      <pubDate>Fri, 14 Aug 2020 13:29:44 -0700</pubDate>
+      
+      <guid>https://fleming.systems/tags/best-practice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft 365</title>
+      <link>https://fleming.systems/tags/microsoft-365/</link>
+      <pubDate>Fri, 14 Aug 2020 13:29:44 -0700</pubDate>
+      
+      <guid>https://fleming.systems/tags/microsoft-365/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Business</title>
       <link>https://fleming.systems/tags/business/</link>
-      <pubDate>Fri, 17 Jul 2020 17:33:00 -0700</pubDate>
+      <pubDate>Mon, 03 Aug 2020 14:10:51 -0700</pubDate>
       
       <guid>https://fleming.systems/tags/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phone System</title>
+      <link>https://fleming.systems/tags/phone-system/</link>
+      <pubDate>Mon, 03 Aug 2020 14:10:51 -0700</pubDate>
+      
+      <guid>https://fleming.systems/tags/phone-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intro</title>
+      <link>https://fleming.systems/tags/intro/</link>
+      <pubDate>Sun, 02 Aug 2020 10:04:34 -0700</pubDate>
+      
+      <guid>https://fleming.systems/tags/intro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>https://fleming.systems/tags/services/</link>
+      <pubDate>Sun, 02 Aug 2020 10:04:34 -0700</pubDate>
+      
+      <guid>https://fleming.systems/tags/services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>https://fleming.systems/tags/life/</link>
+      <pubDate>Tue, 28 Jul 2020 20:43:23 -0700</pubDate>
+      
+      <guid>https://fleming.systems/tags/life/</guid>
       <description></description>
     </item>
     
@@ -35,6 +89,15 @@
       <pubDate>Fri, 17 Jul 2020 17:33:00 -0700</pubDate>
       
       <guid>https://fleming.systems/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azure</title>
+      <link>https://fleming.systems/tags/azure/</link>
+      <pubDate>Thu, 16 Jul 2020 21:17:06 -0700</pubDate>
+      
+      <guid>https://fleming.systems/tags/azure/</guid>
       <description></description>
     </item>
     

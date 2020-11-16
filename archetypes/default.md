@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-tags: ["Phone System","Microsoft 365","Azure","Network","Server,"Device Management"]
+tags: ["Phone System","Microsoft 365","Azure","Network","Server","Device Management"]
 description: ""
 ---
 

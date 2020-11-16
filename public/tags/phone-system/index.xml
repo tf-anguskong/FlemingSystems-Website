@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phone System on Fleming Systems LLC</title>
+    <link>https://fleming.systems/tags/phone-system/</link>
+    <description>Recent content in Phone System on Fleming Systems LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Aug 2020 14:10:51 -0700</lastBuildDate>
+    
+	<atom:link href="https://fleming.systems/tags/phone-system/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3cx - My new favorite Phone System</title>
+      <link>https://fleming.systems/blog/3cx/</link>
+      <pubDate>Mon, 03 Aug 2020 14:10:51 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/3cx/</guid>
+      <description>Are you looking for a up-to-date Phone System? I work with a Mitel phone system day in and day out, and if it were up to me we would get rid of it as soon as possible. It is very outdated and due to all the conditions of working today (COVID) it sorely lacks in the ability to provide simple remote worker support.
+With the need for a replacement looming, I have been looking into replacement phone systems for a year or so now.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on Fleming Systems LLC</title>
+    <link>https://fleming.systems/tags/services/</link>
+    <description>Recent content in Services on Fleming Systems LLC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Aug 2020 10:04:34 -0700</lastBuildDate>
+    
+	<atom:link href="https://fleming.systems/tags/services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Microsoft 365 Overview</title>
+      <link>https://fleming.systems/blog/microsoft-365/</link>
+      <pubDate>Sun, 02 Aug 2020 10:04:34 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/microsoft-365/</guid>
+      <description>What is Microsoft 365? This is a very high level overview of the different levels of licensing SKUs offered within Microsoft 365. Office 365 is Microsoft&amp;rsquo;s SaaS solution for their cloud services. Microsoft has recently rebranded to Microsoft 365 as well, leading to more confusion when it comes to Licensing SKUs. There are many products that belong within Microsoft 365, but I will list the main few that I have worked with.</description>
+    </item>
+    
+  </channel>
+</rss>

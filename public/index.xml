@@ -6,10 +6,59 @@
     <description>Recent content on Fleming Systems LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2020 17:33:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2020 13:29:44 -0700</lastBuildDate>
     
 	<atom:link href="https://fleming.systems/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Disabling Self-Service Purchasing</title>
+      <link>https://fleming.systems/blog/disabling-selfservicepurchasing/</link>
+      <pubDate>Fri, 14 Aug 2020 13:29:44 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/disabling-selfservicepurchasing/</guid>
+      <description>Just another way for Microsoft to get more money, rediculous Microsoft will be releasing the &amp;ldquo;feature&amp;rdquo; soon that will allow individual users to purchase certain licensing SKUs themselves through their work accounts. When they attempt to purchase these licenses it will ask for their credit card information, so it won&amp;rsquo;t add a bill to your corporate Microsoft invoice but instead allows the potential for unwanted licenses being purchased.
+There are a lot of reason why this could be an issue, but just to name a few:</description>
+    </item>
+    
+    <item>
+      <title>3cx - My new favorite Phone System</title>
+      <link>https://fleming.systems/blog/3cx/</link>
+      <pubDate>Mon, 03 Aug 2020 14:10:51 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/3cx/</guid>
+      <description>Are you looking for a up-to-date Phone System? I work with a Mitel phone system day in and day out, and if it were up to me we would get rid of it as soon as possible. It is very outdated and due to all the conditions of working today (COVID) it sorely lacks in the ability to provide simple remote worker support.
+With the need for a replacement looming, I have been looking into replacement phone systems for a year or so now.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft 365 Overview</title>
+      <link>https://fleming.systems/blog/microsoft-365/</link>
+      <pubDate>Sun, 02 Aug 2020 10:04:34 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/microsoft-365/</guid>
+      <description>What is Microsoft 365? This is a very high level overview of the different levels of licensing SKUs offered within Microsoft 365. Office 365 is Microsoft&amp;rsquo;s SaaS solution for their cloud services. Microsoft has recently rebranded to Microsoft 365 as well, leading to more confusion when it comes to Licensing SKUs. There are many products that belong within Microsoft 365, but I will list the main few that I have worked with.</description>
+    </item>
+    
+    <item>
+      <title>Advertising Myself</title>
+      <link>https://fleming.systems/blog/advertising/</link>
+      <pubDate>Tue, 28 Jul 2020 20:43:23 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/advertising/</guid>
+      <description>Hello there! What brought you here? Was it Google?! Let&amp;rsquo;s hope so since apparently how google ads work is pay to click! I hope you even send me an email or give me a call via the contact page! I offer free 30 minute consultation over Microsoft Teams or a simple phone call. Thanks COVID!
+Here are a few things I would ask during that consultation:
+ Are you looking to complete a project or for managed services.</description>
+    </item>
+    
+    <item>
+      <title>Long Week</title>
+      <link>https://fleming.systems/blog/long-week/</link>
+      <pubDate>Fri, 24 Jul 2020 23:07:49 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/long-week/</guid>
+      <description>It&amp;rsquo;s been a long week, but a good one I&amp;rsquo;ve spend a day rewriting a lot of my old powershell scripts and what I call functionized them, as they were honestly an awful mess to read. I have a script that pulls a report from ADP on a daily basis an updates Active Directory accordingly. Maybe one day I will divulge it, as it is to this day my most useful script; it is essentially responsible for keeping all employee contact and organizational information correct.</description>
+    </item>
     
     <item>
       <title>Ansible First Steps</title>
@@ -61,16 +110,16 @@ It should also be noted that before today I have briefly messed with Docker cont
     </item>
     
     <item>
-      <title>Welcome to Fleming Systems</title>
+      <title>Meet the Owner</title>
       <link>https://fleming.systems/aboutme/</link>
       <pubDate>Sat, 11 Jul 2020 11:25:24 -0700</pubDate>
       
       <guid>https://fleming.systems/aboutme/</guid>
-      <description>My name is Tyler Fleming and I have been working in the IT field since 2011. It started with my time in the Army as a 25N (Joint Nodal Network Operator; really it was networking and phone systems). It was there that I realized my passion for all things technology. Since then I have really moved towards Cloud Services and Server Infrastructure, to include physically and cloud platforms like Microsoft Azure.</description>
+      <description>My name is Tyler Fleming and I am the founder of Fleming Systems and (currently) the only employee. I have been working in the IT field since 2011. It started with my time in the Army as a 25N and got out in 2016. Since then I have moved towards Cloud Services and Server Infrastructure, to include physical servers and cloud platforms like Microsoft Azure. I hope that you and I can work together to improve your current IT processes or implement new ones to expand your own business.</description>
     </item>
     
     <item>
-      <title>Contact Me</title>
+      <title>Contact</title>
       <link>https://fleming.systems/contactme/</link>
       <pubDate>Fri, 10 Jul 2020 23:06:18 -0700</pubDate>
       

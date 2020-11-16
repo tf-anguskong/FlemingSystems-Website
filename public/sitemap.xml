@@ -3,28 +3,112 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://fleming.systems/blog/ansible-firststeps/</loc>
-    <lastmod>2020-07-17T17:33:00-07:00</lastmod>
+    <loc>https://fleming.systems/tags/best-practice/</loc>
+    <lastmod>2020-08-14T13:29:44-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://fleming.systems/blog/</loc>
-    <lastmod>2020-07-17T17:33:00-07:00</lastmod>
+    <lastmod>2020-08-14T13:29:44-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://fleming.systems/tags/business/</loc>
-    <lastmod>2020-07-17T17:33:00-07:00</lastmod>
+    <loc>https://fleming.systems/blog/disabling-selfservicepurchasing/</loc>
+    <lastmod>2020-08-14T13:29:44-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://fleming.systems/</loc>
+    <lastmod>2020-08-14T13:29:44-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/tags/microsoft-365/</loc>
+    <lastmod>2020-08-14T13:29:44-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/tags/</loc>
+    <lastmod>2020-08-14T13:29:44-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/blog/3cx/</loc>
+    <lastmod>2020-08-03T14:10:51-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/tags/business/</loc>
+    <lastmod>2020-08-03T14:10:51-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/tags/phone-system/</loc>
+    <lastmod>2020-08-03T14:10:51-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/tags/intro/</loc>
+    <lastmod>2020-08-02T10:04:34-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/blog/microsoft-365/</loc>
+    <lastmod>2020-08-02T10:04:34-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/tags/services/</loc>
+    <lastmod>2020-08-02T10:04:34-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/blog/advertising/</loc>
+    <lastmod>2020-07-28T20:43:23-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/tags/life/</loc>
+    <lastmod>2020-07-28T20:43:23-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/blog/long-week/</loc>
+    <lastmod>2020-07-24T23:07:49-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fleming.systems/blog/ansible-firststeps/</loc>
     <lastmod>2020-07-17T17:33:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -45,15 +129,15 @@
   </url>
   
   <url>
-    <loc>https://fleming.systems/tags/</loc>
-    <lastmod>2020-07-17T17:33:00-07:00</lastmod>
+    <loc>https://fleming.systems/blog/tryingoutmacos/</loc>
+    <lastmod>2020-07-16T21:23:20-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://fleming.systems/blog/tryingoutmacos/</loc>
-    <lastmod>2020-07-16T21:23:20-07:00</lastmod>
+    <loc>https://fleming.systems/tags/azure/</loc>
+    <lastmod>2020-07-16T21:17:06-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

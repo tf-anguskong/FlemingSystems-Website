@@ -6,10 +6,40 @@
     <description>Recent content in Business on Fleming Systems LLC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2020 17:33:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2020 14:10:51 -0700</lastBuildDate>
     
 	<atom:link href="https://fleming.systems/tags/business/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>3cx - My new favorite Phone System</title>
+      <link>https://fleming.systems/blog/3cx/</link>
+      <pubDate>Mon, 03 Aug 2020 14:10:51 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/3cx/</guid>
+      <description>Are you looking for a up-to-date Phone System? I work with a Mitel phone system day in and day out, and if it were up to me we would get rid of it as soon as possible. It is very outdated and due to all the conditions of working today (COVID) it sorely lacks in the ability to provide simple remote worker support.
+With the need for a replacement looming, I have been looking into replacement phone systems for a year or so now.</description>
+    </item>
+    
+    <item>
+      <title>Advertising Myself</title>
+      <link>https://fleming.systems/blog/advertising/</link>
+      <pubDate>Tue, 28 Jul 2020 20:43:23 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/advertising/</guid>
+      <description>Hello there! What brought you here? Was it Google?! Let&amp;rsquo;s hope so since apparently how google ads work is pay to click! I hope you even send me an email or give me a call via the contact page! I offer free 30 minute consultation over Microsoft Teams or a simple phone call. Thanks COVID!
+Here are a few things I would ask during that consultation:
+ Are you looking to complete a project or for managed services.</description>
+    </item>
+    
+    <item>
+      <title>Long Week</title>
+      <link>https://fleming.systems/blog/long-week/</link>
+      <pubDate>Fri, 24 Jul 2020 23:07:49 -0700</pubDate>
+      
+      <guid>https://fleming.systems/blog/long-week/</guid>
+      <description>It&amp;rsquo;s been a long week, but a good one I&amp;rsquo;ve spend a day rewriting a lot of my old powershell scripts and what I call functionized them, as they were honestly an awful mess to read. I have a script that pulls a report from ADP on a daily basis an updates Active Directory accordingly. Maybe one day I will divulge it, as it is to this day my most useful script; it is essentially responsible for keeping all employee contact and organizational information correct.</description>
+    </item>
     
     <item>
       <title>Ansible First Steps</title>
